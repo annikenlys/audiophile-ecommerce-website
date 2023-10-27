@@ -1,0 +1,38 @@
+:root {
+    --primary: #D87D4A;
+    --secondary: #101010;
+    --tritary: #F1F1F1;
+    --quaternary: #FAFAFA;
+    --primary-lighter: #fbaf85;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+}
