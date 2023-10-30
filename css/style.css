@@ -56,6 +56,12 @@ header {
     display: none;
 }
 
+#toggleBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 /* Small (sm) */
 @media (min-width: 640px) {
 }
@@ -66,13 +72,16 @@ header {
     .out-container {
         height: 728px;
     }
+
     .hero-banner-section {
         background-image: url("../assets/home/tablet/image-header.jpg");
     }
+
     header {
         justify-content: flex-start;
         gap: 42px;
     }
+
     header .checkout-btn {
         margin-left: auto;
     }
@@ -91,17 +100,21 @@ header {
         padding-left: 0;
         padding-right: 0;
     }
+
     .hero-banner-section {
         background-image: url("../assets/home/desktop/image-hero.jpg");
         background-size: cover;
     }
+
     .menu-toggle-btn {
         display: none;
     }
+
     .nav-desktop {
         margin: 0 auto;
-        display: flex;
+        display: block;
     }
+
     .nav-desktop ul {
         display: flex;
         gap: 34px;
@@ -109,6 +122,7 @@ header {
         padding: 0;
         margin: 0;
     }
+
     .nav-desktop a {
         color: white;
         text-decoration: none;
@@ -117,6 +131,7 @@ header {
         line-height: 25px;
         letter-spacing: 2px;
     }
+
     .nav-desktop a:hover, .nav-desktop a:focus {
         color: var(--primary);
     }
